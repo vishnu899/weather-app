@@ -143,8 +143,14 @@ function Box()
         else{
           return true
         }
+
+
      })
      setrpt(temparr)
+     setWeather("")
+     setDesc("")
+     setTemp("")
+     
   }
 
 
