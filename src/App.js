@@ -165,7 +165,7 @@ function Box()
        <p>I can give you a Weather report about your city :)</p>
        </div>
 
-       <div className="get my-2">
+       <div className="get flex flex-wrap my-2">
         <input onChange={handleCity} className="p-1 bg-indigo-600 border-none" type="text" placeholder="Enter the city"/>
         <button onClick={getWeather} className="bg-black p-1 border-none text-white">Get Report</button>
        </div>
@@ -185,7 +185,7 @@ function Box()
   })
   }
 </div>
-       <div className="info my-5 flex flex-grow-1 justify-center items-center gap-5">
+       <div className="info my-5 flex flex-grow-1 flex-wrap justify-center items-center gap-5">
         <p style={{backgroundColor:"blue",color:"white",padding:"5px"}}><b>Weather:</b> {weather}</p>
         <p style={{backgroundColor:"red",color:"white",padding:"5px"}}><b>Temperature:</b> {temp}</p>
         <p style={{backgroundColor:"green",color:"white",padding:"5px"}}><b>Description:</b> {desc}</p>
